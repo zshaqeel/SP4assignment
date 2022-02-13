@@ -578,7 +578,7 @@ void CScene3D::Render(void)
 
 	cGUI_Scene3D->SetProjection(projection);
 	// Call the cGUI_Scene3D's PreRender()
-	cGUI_Scene3D->PreRender();
+	cGUI_Scene3D->PreRender(); //awdaw
 	// Call the cGUI_Scene3D's Render()
 	cGUI_Scene3D->Render();
 	// Call the cGUI_Scene3D's PostRender()
